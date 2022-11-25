@@ -1,0 +1,58 @@
+body{
+    padding:0;
+    margin:0;
+    background:#333;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    margin:70px;
+}
+.row{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.six-column-grid{
+    grid-column:2/6;
+}
+h1{
+    text-align: center;
+    font-size:30px;
+}
+.input{
+    width:100%;
+    padding:10px 18px;
+    border-radius:3px;
+    outline:none;
+    border-width:1px;
+    margin-top:10px;
+}
+.grams{
+    background:blue;
+   
+}
+.kg{
+    background:green;
+   
+}
+.ounce{
+    background:red;
+}
+.pounds{
+    background:purple;
+}
+.output{
+    padding-bottom:10px;
+}
+.card{
+    padding:5px 20px;
+    width:100%;
+    border-radius:3px;
+    margin-top:10px;
+}
+select{
+    width:109%;
+    padding:8px 10px;
+    border-radius:3px;
+    outline:none;
+}
